@@ -120,6 +120,7 @@ select option{
 
 .main input{
     padding:8px 101px 8px 14px;
+   
     font-size: 20px;
     border-radius: 3px;
     background-color:rgba(23,23,23,0.7);
@@ -145,7 +146,7 @@ select option{
     margin: auto;
     color: white;
     max-width:70vw ;
-    height:80vh;
+    height:90vh;
 }
 
 .secImg{
@@ -187,7 +188,7 @@ section.first>div :nth-child(2) {
     margin: auto;
     color: white;
     max-width:70vw ;
-    height: 80vh;
+    height: 90vh;
     flex-direction: row-reverse;
 }
 
@@ -224,7 +225,7 @@ section.second>div :nth-child(2) {
     margin: auto;
     color: white;
     max-width:70vw ;
-    height: 80vh;
+    height: 90vh;
 }
 
 .secImg{
@@ -266,7 +267,7 @@ section.third>div :nth-child(2) {
     margin: auto;
     color: white;
     max-width:70vw ;
-    height: 80vh;
+    height: 90vh;
     flex-direction: row-reverse;
 }
 
@@ -377,12 +378,30 @@ footer .end{
 /*Media Queries*/
 
 @media screen and (max-width:573px){
+   
+    .hero> :nth-child(1) {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-weight:900;
+        font-size: 35px;
+    }
+
     .hero-buttons{
         display: flex;
         align-items: center;
         justify-content: center;
         gap:16px;
         flex-direction: column;
+    }
+
+    .main input{
+    /* padding:8px 80px 8px 10px; */
+    font-size: 20px;
+    border-radius: 3px;
+    background-color:rgba(23,23,23,0.7);
+    border:1px,solid,rgba(246,238,238,0.5);
+    color: white;
+    width: 50vw;
     }
 }
 
