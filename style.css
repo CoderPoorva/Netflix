@@ -484,7 +484,7 @@ footer .end{
     }
     
     .faq input{
-        padding:8px 50px 8px 14px;
+        /* padding:8px 50px 8px 14px; */
         font-size: 20px;
         border-radius: 3px;
         background-color:rgba(23,23,23,0.7);
